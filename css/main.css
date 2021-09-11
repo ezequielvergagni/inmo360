@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2? family = Roboto: wght @ 300 & display = swap");
+.container-fluid {
+  width: 98%; }
+
+.icon-lang {
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/ingles.png); }
+
+h1 {
+  font-size: 1em; }
+
+h2 {
+  font-size: 2em; }
+
+h3 {
+  font-size: 3em; }
+
+.facebook- icon {
+  background-color: url(../img/facebook.svg);
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+  list-style: none;
+  margin: 20 px; }
+
+.twitter- icon {
+  background-color: url(../img/twitter.svg);
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+  list-style: none;
+  margin: 20 px; }
+
+.instagram- icon {
+  background-color: url(../img/instagram.svg);
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+  list-style: none;
+  margin: 20 px; }
+
+.circle-uno {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 20px; }
+
+.circle-dos {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 20px; }
+
+.circle-tres {
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 20px; }
+
+.circle-cuatro {
+  background-color: black;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 20px; }
+
+.btn, .btn-rounded {
+  width: 100px;
+  height: 30px;
+  background-color: #21f804;
+  border: none;
+  color: white; }
+  .btn:hover, .btn-rounded:hover {
+    color: black;
+    cursor: pointer; }
+
+.btn-rounded {
+  border-radius: 15px; }
+
+footer {
+  padding: 2em;
+  margin: 1em;
+  height: 100px;
+  background-color: #000000; }
+
+nav {
+  background-color: #21f804;
+  padding: 1em; }
+  nav ul {
+    text-align: right; }
+  nav li {
+    color: red; }
+  nav a {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 1em; }

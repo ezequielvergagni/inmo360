@@ -1,102 +1,54 @@
-@import url("https://fonts.googleapis.com/css2? family = Roboto: wght @ 300 & display = swap");
-.container-fluid {
-  width: 98%; }
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap");
+.video-container {
+  position: absolute;
+  z-index: -100;
+  top: 0%;
+  min-width: 100%;
+  min-height: 100%;
+  overflow: hidden; }
 
-.icon-lang {
-  width: 50px;
-  height: 50px;
-  background-size: cover;
-  background-position: center;
-  background-image: url(../img/ingles.png); }
+.titulovideo {
+  color: #eee7e7;
+  font-size: 4rem;
+  margin-left: 5rem; }
 
-h1 {
-  font-size: 1em; }
+.parrafovideo {
+  color: #eee7e7;
+  font-size: 2rem;
+  margin-left: 5rem; }
 
-h2 {
-  font-size: 2em; }
+.primerTitulo {
+  color: black;
+  font-size: 3rem;
+  font-weight: 500; }
 
-h3 {
-  font-size: 3em; }
+.segundoTitulo {
+  color: black;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-left: 10rem;
+  padding-left: 5rem; }
 
-.facebook- icon {
-  background-color: url(../img/facebook.svg);
-  width: 30px;
-  height: 30px;
-  background-size: 100%;
-  list-style: none;
-  margin: 20 px; }
+.segundoParrafo {
+  margin-left: 5rem;
+  padding-left: 8rem; }
 
-.twitter- icon {
-  background-color: url(../img/twitter.svg);
-  width: 30px;
-  height: 30px;
-  background-size: 100%;
-  list-style: none;
-  margin: 20 px; }
+.botonPortada {
+  margin-left: 5rem;
+  color: chartreuse; }
 
-.instagram- icon {
-  background-color: url(../img/instagram.svg);
-  width: 30px;
-  height: 30px;
-  background-size: 100%;
-  list-style: none;
-  margin: 20 px; }
+.conocenos {
+  font-weight: 400;
+  font-size: 2.5rem; }
 
-.circle-uno {
-  background-color: red;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  margin-right: 20px; }
+footer svg {
+  color: green; }
 
-.circle-dos {
-  background-color: green;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  margin-right: 20px; }
-
-.circle-tres {
-  background-color: yellow;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  margin-right: 20px; }
-
-.circle-cuatro {
-  background-color: black;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  margin-right: 20px; }
-
-.btn, .btn-rounded {
-  width: 100px;
-  height: 30px;
-  background-color: #21f804;
-  border: none;
-  color: white; }
-  .btn:hover, .btn-rounded:hover {
-    color: black;
-    cursor: pointer; }
-
-.btn-rounded {
-  border-radius: 15px; }
+footer a {
+  text-decoration: none; }
 
 footer {
-  padding: 2em;
-  margin: 1em;
-  height: 100px;
-  background-color: #000000; }
+  min-height: 30vh; }
 
-nav {
-  background-color: #21f804;
-  padding: 1em; }
-  nav ul {
-    text-align: right; }
-  nav li {
-    color: red; }
-  nav a {
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    font-size: 1em; }
+footer p {
+  color: blanchedalmond; }

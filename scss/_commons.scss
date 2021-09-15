@@ -13,76 +13,13 @@ $w-100:100%;
 
 $lang:es;
 
-.container-fluid{
-    width: ($widht - 2% );
-  
-}
 
-.icon-lang{
-    width: 50px;
-    height: 50px;
-    background-size:cover ;
-    background-position: center;
-    @if $lang==es{background-image:url( ../img/ingles.png)}
-    @else if $lang==en{background-image:url(../img/español.png) }
 
-}
 
-@for $i  from 1 to 4 {
-    h#{$i}{font-size: 1em*$i}
-    
-}
 
-@each $icono in facebook, twitter, instagram {
-    .#{$icono}- icon {
-        background-color: url(../img/#{$icono}.svg);
-        width: 30px;
-        height: 30px;
-        background-size: 100%;
-        list-style: none;
-        margin: 20 px;
-    }
-    
-}
 
-$colors: (uno:red, dos:green, tres:yellow,cuatro:black);
 
-@each $name-color, $bg-color in $colors {
-    .circle-#{$name-color}{ 
-        background-color: $bg-color;
-        width: 200px;
-        height: 200px;
-        border-radius:50%;
-        margin-right: 20px;
 
-    }
-}
 
-.btn{
-    width: 100px;
-    height: 30px;
-    background-color: $bg-succes;
-    border: none;
-    color: white;
-    &:hover {
-        color: black;
-        cursor: pointer;
-    }
 
-}
-.btn-rounded{
-    @extend .btn;
-    border-radius: 15px ;
-}
 
-@mixin p-m($relleno, $margen) {
-    padding: $relleno;
-    margin: $margen
-    
-}
-
-footer{
-    @include p-m(2em,1em );
-    height: 100px;
-    background-color: $bg-dark;
-}
